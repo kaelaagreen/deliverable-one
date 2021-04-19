@@ -1,0 +1,86 @@
+body{
+    font-family: Bungee;
+}
+header{
+    top: 0;
+    padding-bottom: 40px; 
+}
+img{
+    max-width: 330px;
+    max-height: auto;
+}
+a{
+    color: #7944e6;
+    text-decoration: none;
+}
+a:hover{
+    color: #10fdff;
+}
+ul{
+    list-style-type: none;
+}
+.side-by-side li{
+    display:inline;
+    float: right;
+    padding: 20px;
+}
+.pink{
+    background-color: #ff00ff;
+    padding: 40px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+div{
+    border: 5px #7944e6;
+    border-style: solid;
+    text-align: center;
+    padding: 30px;
+    max-height: 400px;
+    max-width: 300px;
+    margin: 30px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ccc{
+    float: left;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.truck {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .box-align{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: none;
+}
+
+@media screen and (min-width: 768px){
+    .pink {
+        background-color: #ff00ff;
+        padding: 40px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    .truck{
+        margin:auto;
+    }
+    .text{
+        display: initial;
+    }
+    .box-align{
+        display: grid;
+        grid-template-rows: none;
+        grid-template-columns: auto auto auto;
+        }
+    }
